@@ -24,4 +24,10 @@ end
 # Execution flow
 loop do
 # Write your program execution code here
+  puts "Do you want to lookup an area code based on a city name? (Y/N)"
+  answer = gets.chomp.downcase
+  if answer != "y"
+    puts "If you got this far! send me an E-mail at seifriedbrett@gmail.com!"
+    break
+  end
 end
